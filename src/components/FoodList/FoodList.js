@@ -1,4 +1,4 @@
-import "./FoodList"
+import "./FoodList.css"
 import foodItems from "../../FoodData"
 import FoodCard from "../FoodCard/FoodCard"
 import "../../FoodData"
@@ -6,13 +6,12 @@ import "../../FoodData"
 function FoodList() {
     return (
         <>
-         <div className="food-list">
+         <div className="food-list-container">
             {foodItems.map((food, index) => (
                 <FoodCard
                     key={index}
                     name={food.name}
                     image={food.image}
-                    description={food.description}
                     price={food.price}
                     
                 />
