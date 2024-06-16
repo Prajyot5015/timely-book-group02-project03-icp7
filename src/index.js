@@ -6,7 +6,7 @@ import About from './components/AboutUsCard/AboutUsCard'
 import LoginForm from './components/LoginForm/login';
 import FoodList from './components/FoodList/FoodList';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
