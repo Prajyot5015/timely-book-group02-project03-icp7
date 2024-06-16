@@ -8,5 +8,28 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(<Home />);
 
+import About from './components/AboutUsCard/AboutUsCard'
+import LoginForm from './components/LoginForm/login';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <Home />
+    },
+    {
+        path: '/about',
+        element: <About />
+    },
+    {
+        path: '/login',
+        element: <LoginForm />
+    }
+])
+
+
+root.render(<RouterProvider router={router} />);
 
 
