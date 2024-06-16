@@ -6,7 +6,7 @@ import About from './views/About/About'
 import LoginForm from './components/LoginForm/login';
 import FoodList from './components/FoodList/FoodList';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Footer from './components/Footer/Footer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -23,10 +23,7 @@ const router = createBrowserRouter([
         path: '/login',
         element: <LoginForm />
     },
-    {
-        path: '/footer',
-        element: <Footer />
-    },
+   
 ])
 
 
