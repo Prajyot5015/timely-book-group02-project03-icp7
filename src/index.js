@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './views/Home/Home';
-import About from './components/AboutUsCard/AboutUsCard'
+import About from './views/About/About'
 import LoginForm from './components/LoginForm/login';
+import FoodList from './components/FoodList/FoodList';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Footer from './components/Footer/Footer';
-
-
+import Navbar from './components/Navbar/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -24,11 +23,7 @@ const router = createBrowserRouter([
         path: '/login',
         element: <LoginForm />
     },
-   {
- path:"/footer",
- element:<Footer/>
-   }
-
+   
 ])
 
 
