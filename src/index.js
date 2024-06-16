@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './views/Home/Home';
-import About from './components/AboutUsCard/AboutUsCard'
+import About from './views/About/About'
 import LoginForm from './components/LoginForm/login';
 import FoodList from './components/FoodList/FoodList';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
