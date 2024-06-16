@@ -7,6 +7,7 @@ import LoginForm from './components/LoginForm/login';
 import FoodList from './components/FoodList/FoodList';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createBrowserRouter([
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
         path: '/foodlist',
         element: <FoodList />
     }
+
 ])
 
 

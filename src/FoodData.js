@@ -2,18 +2,46 @@
 const foodItems = [
     {
         name: "Paneer Tikka",
-        image: "path/to/paneer-tikka.jpg",
-        description: "A popular North Indian appetizer made with soft cubed paneer.",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB-8c8tGJIWz2dQ9APzSdh9wJw3D5RdCz49g&usqp=CAU",
         price: 10,
        
     },
     {
         name: "Dosa",
-        image: "path/to/dosa.jpg",
-        description: "A crispy South Indian crepe made from fermented rice batter.",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkIDlPipwnNHS-aM52o3MjZfHGRU_X6AgERA&usqp=CAU",
         price: 8,
        
     },
+
+    {
+        name: "Dosa",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkIDlPipwnNHS-aM52o3MjZfHGRU_X6AgERA&usqp=CAU",
+        price: 8,
+       
+    },
+
+    {
+        name: "Dosa",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkIDlPipwnNHS-aM52o3MjZfHGRU_X6AgERA&usqp=CAU",
+        price: 8,
+       
+    },
+
+    {
+        name: "Paneer Tikka",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB-8c8tGJIWz2dQ9APzSdh9wJw3D5RdCz49g&usqp=CAU",
+        price: 10,
+       
+    },
+
+    {
+        name: "Paneer Tikka",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB-8c8tGJIWz2dQ9APzSdh9wJw3D5RdCz49g&usqp=CAU",
+        price: 10,
+       
+    },
+   
+
     
 ];
 
