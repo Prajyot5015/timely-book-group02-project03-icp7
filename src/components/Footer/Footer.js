@@ -13,7 +13,7 @@ function Footer() {
 
       </div>
       <div className='contact-info-div'>
-        <p className='title-text'>Address:</p>
+        <p className='title-text'>Address :-</p>
         <p className="address-text">3rd Floor Finolex Chowk, Old Mumbai - Pune Hwy, Pimpri Colony, Pune, Maharashtra 411018
         </p >
         <div>
@@ -21,14 +21,14 @@ function Footer() {
         </div>
       </div>
       <div className='contact-info-div'>
-        <p className='title-text'>Contact Info</p>
+        <p className='title-text'>Contact Info :-</p>
         <img src="" alt='1' className='contact-logo align-items-start' /><span className='contact-info-text'>+9922868597</span><br></br>
         <img src="" alt='1' className='contact-logo align-items-start' /><span  className='contact-info-text'>timelymovie@gmail.com</span><br></br>
         <img src="" alt='1' className='contact-logo align-items-start' /><span className='contact-info-text'>1234 delight Building,New Delhi,12002700</span>
       </div>
 
       <div className='contact-info-div'>
-        <p className='title-text'>Open / Close Timeing</p>
+        <p className='title-text'>Open / Close Timeing :-</p>
         <p  className='opening-hourse'>Monday sunday<br></br>
           09:00 AM To 11:00PM
         </p>
