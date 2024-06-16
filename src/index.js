@@ -5,7 +5,9 @@ import Home from './views/Home/Home';
 import About from './components/AboutUsCard/AboutUsCard'
 import LoginForm from './components/LoginForm/login';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -22,7 +24,11 @@ const router = createBrowserRouter([
         path: '/login',
         element: <LoginForm />
     },
-   
+   {
+ path:"/footer",
+ element:<Footer/>
+   }
+
 ])
 
 
