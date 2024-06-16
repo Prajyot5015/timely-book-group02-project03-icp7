@@ -23,6 +23,7 @@ const router = createBrowserRouter([
         element: <LoginForm />
     },
    
+])
 
 
 root.render(<RouterProvider router={router} />);
