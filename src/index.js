@@ -2,12 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './views/Home/Home';
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(<Home />);
-
 import About from './components/AboutUsCard/AboutUsCard'
 import LoginForm from './components/LoginForm/login';
 import FoodList from './components/FoodList/FoodList';
