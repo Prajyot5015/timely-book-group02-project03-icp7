@@ -22,11 +22,7 @@ const router = createBrowserRouter([
         path: '/login',
         element: <LoginForm />
     },
-    {
-      path:"/navbar",
-      element:<Navbar/>
-    }
-])
+   
 
 
 root.render(<RouterProvider router={router} />);
