@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import './OrderNow.css';
+import './OrderNow.css'
 
 function App() {
   return (
