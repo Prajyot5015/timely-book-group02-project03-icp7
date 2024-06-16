@@ -16,8 +16,8 @@ function MovieCard({ id, title, description, duration, rating, langauage, genre,
       <p className='langauage'> {langauage} </p>
 
       <div className='btn-container'>
-        <button type='button' className='btn' >Buy Ticket</button>
-        <button type='button' className='btn' >More Detail</button>
+        <button type='button' className='movie-card-btn' >Buy Ticket</button>
+        <button type='button' className='movie-card-btn' >More Detail</button>
       </div>
     </div>
 

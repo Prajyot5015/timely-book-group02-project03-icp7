@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './views/Home/Home';
 import About from './components/AboutUsCard/AboutUsCard'
+import LoginForm from './components/LoginForm/login';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     {
         path: '/about',
         element: <About />
+    },
+    {
+        path: '/login',
+        element: <LoginForm />
     }
 ])
 
