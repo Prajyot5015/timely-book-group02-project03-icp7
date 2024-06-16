@@ -1,6 +1,13 @@
+body{
+    background:url('./../../imgs/formImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .content{
     height: 300px;
-    width: 350px;
+    width: 400px;
     background-color:transparent;
     backdrop-filter: blur(5px);
     border: solid 1px #ddd;
@@ -8,7 +15,7 @@
     margin: 100px auto;
     border-radius: 20px;
     padding: 10px 20px;
-    color: #fff;
+    color:#fff;
     box-shadow: 0 0 10px 0px #1a1919;
 
 }
@@ -18,7 +25,7 @@
 
 }
 .text{
-   
+   margin-top: 20px;
     font-size: 20px;
 }
 .input{
