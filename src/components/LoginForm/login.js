@@ -1,11 +1,12 @@
 import "./login.css"
 
 
+
 function LoginForm() {
     return (
 
         <form>
-            <div className="content">
+            <div className="content ">
                 <h3 className="text">User Name</h3>
                 <input type="text" className="input" placeholder="User Name" id="name" required/>
                 <h3 className="text">Password</h3>

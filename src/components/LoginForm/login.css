@@ -1,4 +1,7 @@
-
+form{
+    background: url(../../imgs/formImg.jpg);
+    background-size: cover;
+}
 .content{
     height: 300px;
     width: 400px;
