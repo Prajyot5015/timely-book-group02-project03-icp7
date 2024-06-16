@@ -1,0 +1,13 @@
+.food-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+   
+}
+.food-list-containe:hover{
+   background-color: #f5f5f5;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,0 )
+
+}
