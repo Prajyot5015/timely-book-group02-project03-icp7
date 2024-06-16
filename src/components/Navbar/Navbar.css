@@ -1,3 +1,44 @@
-div{
+.navbar-container{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar-items-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 80px;
+ 
+    position: sticky;
+    width: 800px;
+
+}
+.navbar-logo{
+    height: 80px;
+    margin-left:20px;
+    
+}
+.navbar-items{
+    font-size: 20px;
+    background-color: #DCD9D4;
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+ background-blend-mode: soft-light,screen;
+    padding: 7px 20px;
+    border-radius: 15px;
+    width: 100px;
     text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.log-in-container{
+    margin-right: 40px;
+   
 }

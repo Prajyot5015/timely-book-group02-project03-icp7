@@ -2,10 +2,12 @@ import React from 'react'
 import './Home.css'
 import moviesData from "./../../data"
 import MovieCard from '../../components/MovieCard/MovieCard'
+import Navbar from './../../components/Navbar/Navbar'
 
 function Home() {
   return (
     <>
+      <Navbar />
       <div className='movie-container'>
         {
           moviesData.map((movieObject, i) => {
