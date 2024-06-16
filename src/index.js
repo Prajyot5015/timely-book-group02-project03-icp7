@@ -4,6 +4,7 @@ import './index.css';
 import Home from './views/Home/Home';
 import About from './components/AboutUsCard/AboutUsCard'
 import LoginForm from './components/LoginForm/login';
+import FoodList from './components/FoodList/FoodList';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
     {
         path: '/login',
         element: <LoginForm />
+    },
+    {
+        path: '/foodlist',
+        element: <FoodList />
     }
 ])
 
