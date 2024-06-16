@@ -7,9 +7,9 @@ function LoginForm() {
         <form>
             <div className="content">
                 <h3 className="text">User Name</h3>
-                <input type="text" className="input" placeholder="User Name" id="name" />
+                <input type="text" className="input" placeholder="User Name" id="name" required/>
                 <h3 className="text">Password</h3>
-                <input type="password" className="input" placeholder="Password" id="pass" />
+                <input type="password" className="input" placeholder="Password" id="pass" required/>
                 <button className="btn" onclick="form()">Login</button>
                 <p class="actext">Create An Accout? <span>Signup</span></p>
             </div>
