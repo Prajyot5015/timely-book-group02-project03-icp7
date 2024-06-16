@@ -5,6 +5,7 @@ import Home from './views/Home/Home';
 import About from './views/About/About'
 import LoginForm from './components/LoginForm/login';
 import FoodList from './components/FoodList/FoodList';
+import Food from './views/Food/Food';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
     {
         path: '/foodlist',
         element: <FoodList />
+    },
+    {
+        path : '/food',
+        element: <Food />
     }
 
 ])
