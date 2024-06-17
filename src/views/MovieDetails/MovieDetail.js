@@ -12,28 +12,29 @@ function MovieDetails() {
    
       
     return(<>
-   <h1>Movie Detail</h1>
+   
    <img src={selectedMovie.poster/10} alt="'poster"  className='poster-img'/>
-       
+       <div className="rating">
        <img src={StarPng} alt='img' />
        <p>{selectedMovie.rating} </p>
+       </div>
         
-       
-       <span > {selectedMovie.author.description}</span>
+       <h1>{selectedMovie.title}</h1>
+       <span classname="description"> {selectedMovie.author.description}</span>
        <p>{selectedMovie.duration} </p>
        <p>{selectedMovie.genre} </p>
       
-       <p >{selectedMovie.langauage} </p>
-       <p >{selectedMovie.Director} </p>
-       <p >{selectedMovie.Actor} </p>
-       <p >{selectedMovie.Screenpla} </p>
-       <p >{selectedMovie.Story } </p>
-       <p >{selectedMovie.Produced} </p>
-       <p >{selectedMovie.Starring} </p>
-       <p >{selectedMovie.Cinematography} </p>
-       <p >{selectedMovie.Production} </p>
-       <p >{selectedMovie.Releasedate} </p>
-       <p >{selectedMovie.avtar} </p>
+       <p className='langauage'>{selectedMovie.langauage} </p>
+       <p classname="info1">{selectedMovie.Director} </p>
+       <p classname="info1" >{selectedMovie.Actor} </p>
+       <p classname="info" >{selectedMovie.Screenpla} </p>
+       <p classname="info"  >{selectedMovie.Story } </p>
+       <p classname="info" >{selectedMovie.Produced} </p>
+       <p classname="info" >{selectedMovie.Starring} </p>
+       <p classname="info" >{selectedMovie.Cinematography} </p>
+       <p classname="info"  >{selectedMovie.Production} </p>
+       <p classname="info" >{selectedMovie.Releasedate} </p>
+       <p classname="info" >{selectedMovie.avtar} </p>
     </>
     )
 }
