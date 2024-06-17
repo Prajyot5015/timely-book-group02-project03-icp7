@@ -12,7 +12,7 @@ function Navbar() {
         <Link  to={"/"}className='navbar-items'>Home</Link>
         <Link  to={"/about"}className='navbar-items'>About</Link>
         <Link  to={"/food"}className='navbar-items'>Food</Link>
-        <Link  to={"/movie"}className='navbar-items'>Movie</Link>
+        <Link  to={"/"}className='navbar-items'>Movie</Link>
        
       </div>
       <div className='log-in-container'>

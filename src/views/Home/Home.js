@@ -4,6 +4,7 @@ import moviesData from "./../../data"
 import MovieCard from '../../components/MovieCard/MovieCard'
 import Navbar from './../../components/Navbar/Navbar'
 import { Link } from 'react-router-dom'
+import Footer from './../../components/Footer/Footer'
 
 function Home() {
   return (
@@ -12,7 +13,7 @@ function Home() {
       <div className='movie-food-container'>
           <Link to="/">Movies</Link>
           <span>|</span>
-          <Link to="/foodlist">Food</Link>
+          <Link to="/food">Food</Link>
       </div>
       <div className='movie-container'>
         {
@@ -44,6 +45,7 @@ function Home() {
           })
         }
       </div>
+      <Footer />
     </>
   )
 }
