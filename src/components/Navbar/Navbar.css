@@ -15,9 +15,8 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     height: 80px;
- 
     position: sticky;
-    width: 800px;
+    width: 801px;
 
 }
 .navbar-logo{
