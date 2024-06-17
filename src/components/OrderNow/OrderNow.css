@@ -41,6 +41,7 @@
   
   button {
     padding: 10px 20px;
+    margin-bottom: 5px;
     background-color: #7eafe3;
     color: rgb(219, 225, 218);
     border: none;
