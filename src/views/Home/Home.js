@@ -4,6 +4,7 @@ import moviesData from "./../../data"
 import MovieCard from '../../components/MovieCard/MovieCard'
 import Navbar from './../../components/Navbar/Navbar'
 import { Link } from 'react-router-dom'
+import Footer from './../../components/Footer/Footer'
 
 function Home() {
   return (
@@ -44,6 +45,7 @@ function Home() {
           })
         }
       </div>
+      <Footer />
     </>
   )
 }
