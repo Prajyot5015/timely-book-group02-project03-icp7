@@ -4,6 +4,7 @@ import AboutUsCard from "../../components/AboutUsCard/AboutUsCard"
 import foodCardData from "../../AboutFoodCardData"
 import FoodCard from "../../components/AboutFoodCard/AboutFoodCard"
 import Navbar from "./../../components/Navbar/Navbar"
+import Footer from "../../components/Footer/Footer"
 
 
 function About() {
@@ -50,6 +51,7 @@ function About() {
         })
     }
 </div>
+<Footer/>
         </>
 
     )
