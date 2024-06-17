@@ -1,5 +1,7 @@
 import "./signup.css"
-import Navbar from './../../components/Navbar/Navbar'
+import Navbar from './../../components/Navbar/Navbar';
+import { Link } from "react-router-dom"
+
 
 
 function SignupForm() {
@@ -20,7 +22,7 @@ function SignupForm() {
                 <input type="password"className="input" required/>
                
                 <button className="btn">Signup</button>
-                <p class="actext">Already Have An Account? <a href="./LoginForm/login.js">Signup</a></p>
+                <p class="actext">Already Have An Account?<Link to="../LoginForm/login.js"className="span">Login</Link></p>
             </div>
         </form>
 
