@@ -5,6 +5,7 @@ import foodCardData from "../../AboutFoodCardData"
 import FoodCard from "../../components/AboutFoodCard/AboutFoodCard"
 import Navbar from "./../../components/Navbar/Navbar"
 
+
 function About() {
     return (
         <>
