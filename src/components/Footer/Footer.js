@@ -6,6 +6,9 @@ import Clock from "../../imgs/navbar/clock.png"
 import Location from "../../imgs/navbar/location (1).png"
 import Contact from "../../imgs/navbar/telephone.png"
 import Email from "../../imgs/navbar/envelope (1).png"
+import Linkdine from "../../imgs/navbar/linkdine12.png"
+import Youtube from "../../imgs/navbar/youtube (1).png"
+import Instagram from "../../imgs/navbar/instagram.png"
 
 
 
@@ -50,9 +53,9 @@ function Footer() {
     
    
         <div className='icon-container'> 
-           <img src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4Mi1kMS0xMC5wbmc.png" alt='linkdine'className='icon' />
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwH--J-ZMUg8puNfUxE6YXQi3yVHuAORDxow&s" alt='instgram'className='icon'  />
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFwXxj5H9tLBzt-ZO94jBHmU2VIsx1wdrzQSMjbxmSmGouqpH1hCkuN24AAmwItc_aFn8&usqp=CAU" alt='youtube' className='icon' />
+           <img src={Linkdine} alt='linkdine'className='icon' />
+          <img src={Instagram} alt='instgram'className='icon'  />
+          <img src={Youtube} alt='youtube' className='icon' />
           <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/91/ef/67/91ef67ae-4877-1286-a4d6-fb04f6f37e9e/ProductionAppIcon-2x-4-0-0-85-220.png/1200x630bb.png" alt='Twitter'className='icon' />
           </div>
         
