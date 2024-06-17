@@ -1,9 +1,6 @@
 import "./login.css"
-import Navbar from './../../components/Navbar/Navbar'
-
-
-
-
+import Navbar from './../../components/Navbar/Navbar';
+import { Link } from 'react-router-dom';
 function LoginForm() {
     return (
         <>
@@ -15,15 +12,11 @@ function LoginForm() {
                 <h3 className="text">Password</h3>
                 <input type="password" className="input" placeholder="Password"  required/>
                 <button className="btn" onclick="form()">Login</button>
-                <p class="actext">Create An Accout?<a href=""className="span">Signup</a></p>
+                <p class="actext">Create An Accout?<Link to={"/signup"}className="span">SignUp</Link></p>
             </div>
         </form>
-       
-
         </>
 
     )
 }
-
-
 export default LoginForm

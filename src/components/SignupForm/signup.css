@@ -43,3 +43,11 @@
 span{
     color: blue;
 }
+@media screen and (min-width:600px) and (max-width:900px){
+    .content{
+        width: 50%;
+    }
+    .input{
+        width: 100%;
+    }
+}

@@ -22,7 +22,8 @@ function SignupForm() {
                 <input type="password"className="input" required/>
                
                 <button className="btn">Signup</button>
-                <p class="actext">Already Have An Account?<Link to="../LoginForm/login.js"className="span">Login</Link></p>
+                <p class="actext">Already Have An Account?<Link to={"/login"} className='navbar-items' >Log in</Link>
+                </p>
             </div>
         </form>
 
