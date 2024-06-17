@@ -1,16 +1,18 @@
 import "./AboutUsCard.css"
+import { Link } from "react-router-dom"
 
 
-
-function AboutUsCard({id,image,title}) {
+function AboutUsCard({ id, image, title }) {
   return (
-    
+
     <>
-   
-   <div className="card-container">
-        <img src={image} className="card-image"/>
+     <Link to={`/aboutcardpage/${id}`}>
+
+      <div className="card-container">
+        <img src={image} className="card-image" />
         <span className="title">{title}</span>
-    </div>
+      </div>
+      </Link>
     </>
   )
 }

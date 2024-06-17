@@ -5,11 +5,7 @@ import Home from './views/Home/Home';
 import About from './views/About/About'
 import LoginForm from './components/LoginForm/login';
 import FoodList from './components/FoodList/FoodList';
-
-import OrderNow from './components/OrderNow/OrderNow';
-
 import Food from './views/Food/Food';
-
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
@@ -34,14 +30,8 @@ const router = createBrowserRouter([
         element: <FoodList />
     },
     {
-
-        path: '/OrderNow',
-        element: <OrderNow/>
-    },
-    {
         path : '/food',
         element: <Food />
-
     }
 ])
 
