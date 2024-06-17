@@ -40,13 +40,17 @@
 }
 
 .food-order-heading {
-    font-size: 50px;
+    background-color: #52a2f8;
+    margin-top: 60px;
+    border-radius: 15px;
+    font-size: 35px;
+    padding: 10px;
     margin: 10px;
     color: black;
     position: relative;
     z-index: 2;
     text-align: center;
-    margin-top: 130px; 
+   
 }
 
 .food-images-container {
@@ -57,4 +61,14 @@
     position: relative;
     z-index: 2;
     margin-top: 20px; 
+}
+
+.food-list-recipe{
+    font-size: 30px;
+    background-color: #52a2f8;
+    border-radius: 15px;
+   text-align: center;
+   padding: 10px;
+   width: 60%;
+   margin: 10px auto;
 }
