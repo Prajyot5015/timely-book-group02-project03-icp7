@@ -8,8 +8,10 @@ import Burger from "./Burger.avif";
 import PavBhaji from "./Pav_Bhaji.avif";
 import FoodList from "../FoodList/FoodList";
 import BackgroundImg from "../../imgs/food-background.jpeg";
+import CardRating from '../CardRating/CardRating';
 
 function FoodPageView() {
+  const rating = 5;
   return (
     <>
       <div className="food-heading-container">
@@ -18,6 +20,7 @@ function FoodPageView() {
         <img src={foodImg} className="food-heading-img" alt="Food Heading"/>
         <h2 className="food-order-heading">Order Your Favorite Food</h2>
         <div className="food-images-container">
+          
           <img src={pizza} className="hero-section-img" alt="Pizza"/>
           <img src={Biryani} className="hero-section-img" alt="Biryani"/>
           <img src={Chinese} className="hero-section-img" alt="Chinese"/>
@@ -25,7 +28,9 @@ function FoodPageView() {
           <img src={PavBhaji} className="hero-section-img" alt="Pav Bhaji"/>
         </div>
         <div>
+        <h2 className='food-list-recipe'>Popular Food </h2>
           <FoodList/>
+          
         </div>
       </div>
     </>

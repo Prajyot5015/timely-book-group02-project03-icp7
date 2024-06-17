@@ -6,7 +6,6 @@ import { Link } from "react-router-dom"
 
 function SignupForm() {
     return (
-
         <form>
             <Navbar />
             <div className="content">
@@ -20,18 +19,12 @@ function SignupForm() {
                 <input type="password" className="input" required /> 
                 <h3 className="text">Address</h3>
                 <input type="password"className="input" required/>
-               
-                <button className="btn">Signup</button>
+                <Link to={"/"}>
+                <button className="btn">Signup</button></Link>
                 <p class="actext">Already Have An Account?<Link to={"/login"} className='navbar-items' >Log in</Link>
                 </p>
             </div>
         </form>
-
-
-
-
-
-
     )
 }
 export default SignupForm
