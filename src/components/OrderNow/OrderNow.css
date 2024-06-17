@@ -40,7 +40,7 @@
   
   button {
     padding: 10px 20px;
-    background-color: #05294f;
+    background-color: #7eafe3;
     color: rgb(219, 225, 218);
     border: none;
     border-radius: 6px;
@@ -48,7 +48,7 @@
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #3d648f;
   }
   
   .order-confirmation {
