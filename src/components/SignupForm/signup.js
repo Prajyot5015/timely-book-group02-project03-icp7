@@ -1,10 +1,12 @@
 import "./signup.css"
+import Navbar from './../../components/Navbar/Navbar'
 
 
 function SignupForm() {
     return (
 
         <form>
+            <Navbar />
             <div className="content">
                 <h3 className="text">User Name</h3>
                 <input type="text" className="input" required />
@@ -18,7 +20,7 @@ function SignupForm() {
                 <input type="password"className="input" required/>
                
                 <button className="btn">Signup</button>
-                <p class="actext">Already Have An Account? <span>Login</span></p>
+                <p class="actext">Already Have An Account? <a href="./LoginForm/login.js">Signup</a></p>
             </div>
         </form>
 
