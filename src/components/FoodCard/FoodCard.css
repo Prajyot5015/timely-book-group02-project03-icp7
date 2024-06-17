@@ -19,26 +19,28 @@
     object-fit: cover;
 }
 
-.food-card-content {
-    padding: 16px;
-}
-
 .food-card-name {
+    text-align: center;
     font-size: 1.5em;
     margin: 0 0 10px;
 }
 
-.food-card-description {
-    font-size: 15px;
-    margin: 0 10px;
-    color: #666;
-}
-
-.food-card-timing{
-    font-size: 15px;
-    margin: 0;
-}
 .food-card-price {
     font-size: 15px;
     margin: 0;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+.food-card-btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 20px;
+}
+.food-card-btn:hover{
+    background-color: #3e8e41;
+    
 }

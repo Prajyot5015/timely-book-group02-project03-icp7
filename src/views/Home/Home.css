@@ -5,3 +5,16 @@
     flex-wrap: wrap;
     margin: 20px;
 }
+.movie-food-container{
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+}
+.movie-food-container span{
+    color: #000;
+}
