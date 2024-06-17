@@ -12,6 +12,7 @@ function FoodList() {
                     key={index}
                     name={food.name}
                     image={food.image}
+                    description={food.description}
                     price={food.price}
                     
                 />
