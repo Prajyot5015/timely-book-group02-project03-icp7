@@ -6,6 +6,7 @@ import About from './views/About/About'
 import LoginForm from './components/LoginForm/login';
 import FoodList from './components/FoodList/FoodList';
 import Food from './views/Food/Food';
+import MovieCard from "../src/components/MovieCard/MovieCard"
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
@@ -24,6 +25,14 @@ const router = createBrowserRouter([
         path: '/login',
         element: <LoginForm />
     },
+    {
+        path:'/food',
+        element:<Food/>
+    },
+    {
+        path:'/MovieCard',
+        element:<MovieCard/>
+    }
    
 ])
 
