@@ -24,7 +24,14 @@
 .navbar-logo {
     height: 120px;
     margin-left: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    
 
+}
+.navbar-logo:hover{
+    box-shadow: 0px 0px 15px 1px white;
+    transition: 0.3s;
 }
 
 .navbar-items {
