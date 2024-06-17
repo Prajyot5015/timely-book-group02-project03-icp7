@@ -12,7 +12,7 @@ function App() {
 function OrderNow() {
   const [orderDetails, setOrderDetails] = useState({
     name: '',
-    address: '',
+    Theater_Name: '',
     item: '',
     quantity: 1,
   });
@@ -50,7 +50,7 @@ function OrderNow() {
           </div>
           <div>
             <label>
-              Address:
+            Theater_Name:
               <input
                 type="text"
                 name="address"
@@ -91,7 +91,7 @@ function OrderNow() {
         <div className="order-confirmation">
           <h2>Order Confirmation</h2>
           <p><strong>Name:</strong> {orderDetails.name}</p>
-          <p><strong>Address:</strong> {orderDetails.address}</p>
+          <p><strong> Theater_Name:</strong> {orderDetails.address}</p>
           <p><strong>Item:</strong> {orderDetails.item}</p>
           <p><strong>Quantity:</strong> {orderDetails.quantity}</p>
           <button onClick={() => setSubmitted(false)}>Edit Order</button>
