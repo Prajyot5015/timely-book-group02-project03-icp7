@@ -1,7 +1,7 @@
 import React from 'react'
 import './MovieCard.css'
 import StarPng from './star.png'
-import { Link } from 'react-router-dom'
+
 
 function MovieCard({ id, title, description, duration, rating, langauage, genre, poster }) {
   return (
