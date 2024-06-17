@@ -10,13 +10,13 @@
   
   .order-now-container {
     max-width: 500px;
-    color: #045d2f;
+    color: #bdabfb;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #011404;
     border-radius: 10px;
     box-shadow:0 0 40px black;
-    background-color: #abfca7;
+    background-color: #35a02f;
   }
   
   form div {
@@ -42,8 +42,8 @@
   button {
     padding: 10px 20px;
     margin-bottom: 5px;
-    background-color: #7eafe3;
-    color: rgb(219, 225, 218);
+    background-color:  #bdabfb;
+    color:black;
     border: none;
     border-radius: 6px;
     cursor: pointer;
