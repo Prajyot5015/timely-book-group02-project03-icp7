@@ -2,6 +2,7 @@ import React from 'react'
 import './MovieCard.css'
 import StarPng from './star.png'
 
+
 function MovieCard({ id, title, description, duration, rating, langauage, genre, poster }) {
   return (
     <div className='movie-card'>

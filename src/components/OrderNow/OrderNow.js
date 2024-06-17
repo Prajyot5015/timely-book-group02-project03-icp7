@@ -1,3 +1,4 @@
+import React,{useState} from 'react';
 import './OrderNow.css'
 
 function App() {
@@ -32,7 +33,7 @@ function OrderNow() {
 
   return (
     <div className="order-now-container">
-      <h1>Order Now</h1>
+      <h1>Order Now..🍟</h1>
       {!submitted ? (
         <form onSubmit={handleSubmit}>
           <div>
