@@ -3,8 +3,10 @@ import { useParams } from "react-router-dom";
 import  moviesData from "../../data";
 import './MovieDetail.css';
 import StarPng from'../../components/MovieCard/star.png';
+import Navbar from './../../components/Navbar/Navbar';
 
 function MovieDetails() {
+    <Navbar />
 
     const {id} = useParams()
    
