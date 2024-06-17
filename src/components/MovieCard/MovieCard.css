@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 .movie-card {
-    border-radius: 10px;
-    overflow: hidden;
     width: 300px;
     height: 500px;
-    background-color: #FFFFFF;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     margin: 30px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
 }
 
 .poster-img {

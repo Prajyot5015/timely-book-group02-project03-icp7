@@ -13,7 +13,7 @@ function Home() {
       <div className='movie-food-container'>
           <Link to="/">Movies</Link>
           <span>|</span>
-          <Link to="/foodlist">Food</Link>
+          <Link to="/food">Food</Link>
       </div>
       <div className='movie-container'>
         {
