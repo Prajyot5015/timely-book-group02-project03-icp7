@@ -70,10 +70,17 @@
     padding: 10px;
     margin: 5px;
    }
-   
+
 .info{
    font-size: large;
     padding: 10px;
     margin: 5px;
    
+}
+.author-avtar{
+    height:50px;
+    width: 50px;
+    border-radius:50%;
+    margin-top:5px;
+    margin-bottom: 0px;
 }
