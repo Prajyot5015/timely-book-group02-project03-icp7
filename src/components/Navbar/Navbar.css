@@ -6,6 +6,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+  
+   
 }
 
 
@@ -14,7 +16,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 130px;
+    height: 100px;
     position: sticky;
     width: 800px;
 
@@ -22,7 +24,7 @@
 }
 
 .navbar-logo {
-    height: 120px;
+    height: 90px;
     margin-left: 20px;
     border-radius: 25px;
     cursor: pointer;
