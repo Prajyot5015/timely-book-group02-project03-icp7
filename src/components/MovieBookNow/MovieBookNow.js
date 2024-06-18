@@ -1,7 +1,9 @@
-import "./BookNowCard.css"
-import bookNowPageData from "../../BookNowPageData"
+import React from "react";
+import "./movieBookNow.css";
+import MovieBookNowPageData from './MovieBookNowPageData'
 
-function BookNowCard({title,time1,time2,time3,time4}) {
+
+function  MovieBookNow({title,time1,time2,time3,time4}) {
 
   return (
    
@@ -31,4 +33,4 @@ function BookNowCard({title,time1,time2,time3,time4}) {
   )
 }
 
-export default BookNowCard
+export default MovieBookNow

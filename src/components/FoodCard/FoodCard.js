@@ -5,7 +5,7 @@ import CardRating from "../CardRating/CardRating";
  
 
 
-function FoodCard({ name, image,  description, rating, totalstars = 5 }) {
+function FoodCard({id, name, image,  description, rating, totalstars = 5 }) {
     return (
         <div className="food-card">
             <img src={image} alt={name} className="food-card-image" />
@@ -16,8 +16,8 @@ function FoodCard({ name, image,  description, rating, totalstars = 5 }) {
                     <CardRating rating={rating} totalstars={totalstars} />
                 </span>
             </div>
-            <Link type="buttom" className="food-card-btn" to={"/OrderNow"}>Order Now</Link>
-            <button type="buttom" className="food-card-btn" >View Details</button>
+            <Link className="food-card-btn" to={`/OrderNow/${id}`}>Order Now</Link>
+            <button type="button" className="food-card-btn" >View Details</button>
         </div>
     );
 }
