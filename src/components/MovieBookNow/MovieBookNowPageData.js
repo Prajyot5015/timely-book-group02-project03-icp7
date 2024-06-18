@@ -1,7 +1,7 @@
 const MovieBookNowPageData = [
     {
         id:"1",
-        title:"Abhiruchi City Pride: Sinhagad Road",
+        title:"phoenix Mall: Viman nagar",
         time1:"8:00 PM",
         time2:"8:00 PM",
         time3:"8:00 PM",
@@ -10,10 +10,10 @@ const MovieBookNowPageData = [
     },
     {
         id:"1",
-        title:"Abhiruchi City Pride: Sinhagad Road",
-        time1:"8:00 PM",
-        time2:"8:00 PM",
-        time3:"8:00 PM",
+        title:"Seaseon Mall: Hdapsar",
+        time1:"8:00 AM",
+        time2:"12:00 PM",
+        time3:"4:00 PM",
         time4:"8:00 PM",
         
     }

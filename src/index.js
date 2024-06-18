@@ -51,17 +51,16 @@ const router = createBrowserRouter([
         path: '/OrderNow',
         element: <OrderNow/>
     },
-<<<<<<< HEAD
+
     {
         path: 'MovieBookNow',
         element: <MovieBookNow/>
-=======
-  {
+    },
+   {
 
         path:"/movie/:id",
         element:<MovieDetails/>
 
->>>>>>> 5548293c14264a8c20dc5e00aa59d065bb10ea7c
     }
  
 ])
