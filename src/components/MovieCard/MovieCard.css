@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-.movie-card {
+.movies-card {
     width: 300px;
-    height: 500px;
+    height: 510px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     margin: 30px;
     border: 1px solid #ddd;
@@ -14,12 +14,12 @@
     transition: transform 0.2s ease-in-out;
 }
 
-.poster-img {
+.posters-img {
     width: 300px;
     height: 310px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
-.rating {
+.ratings {
     background-color: #000;
     color: #FFFFFF;
     margin-top: -4px;
@@ -28,15 +28,15 @@
     justify-content: center;
     padding: 5px;
 }
-.rating img{
+.ratings img{
     width: 20px;
     padding-right: 5px;
 }
-.movie-title{
+.movies-title{
     font-size: 20px;
     padding: 10px;
 }
-.description{
+.descriptions{
     font-size: 15px;
     color: #454545;
     padding: 10px;
@@ -45,12 +45,12 @@
     text-align: center;
     padding: 10px;
 }
-.btn-container{
+.btns-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.movie-card-btn{
+.movies-card-btn{
     background-color: #4CAF50;
     color: white;
     border: none;
