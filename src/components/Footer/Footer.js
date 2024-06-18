@@ -15,51 +15,50 @@ import Instagram from "../../imgs/navbar/instagram.png"
 function Footer() {
   return (
     <>
-    <div className='footer-container'>
-
-      <div className='contact-info-div'>
-        <img src={Logo} alt='1' className='logo-image' />
-
-      </div>
-      <div className='contact-info-div'>
-        <p className='title-text'>Address :-</p>
-        <img src={Location} className='icons'/>
-        <p className="address-text">3rd Floor Finolex Chowk, Old Mumbai - Pune Hwy, Pimpri , Pune, Maharashtra 411018
-        </p >
-        <div>
-        
+      <div className='footer-container'>
+        <div className='contact-info-div'>
+          <img src={Logo} alt='1' className='logo-image' />
         </div>
-      </div>
-      <div className='contact-info-div'>
-        <p className='title-text'>Contact Info :-</p>
-        <img src={Contact} alt='1' className='icons' /><span className='contact-info-text'>+9284528878</span><br></br>
-        <img src={Email} alt='1' className='icons' /><span  className='contact-info-text'>timelymovie@gmail.com</span><br></br>
-        <img src={Location} alt='1'  className='icons' /><span className='contact-info-text'>Mumbai-Pune Hwy, Pimpri Pune 411018</span>
-      </div>
 
-      <div className='contact-info-div'>
-        <p className='title-text'>Open / Close Timeing :-</p>
-        <img src={Clock}  className='icons'/><p  className='opening-hourse'>Monday sunday<br></br>
-          09:00 AM To 11:00PM
-        </p>
-
-       
-
-
-      </div>
-
-
-    </div>
-    
-   
-        <div className='icon-container'> 
-          <a href='https://www.linkedin.com/feed/'> <img src={Linkdine} alt='linkdine'className='icon' /></a>
-          <a href='https://www.instagram.com/'> <img src={Instagram} alt='instgram'className='icon'  /></a>
-          <a href='https://www.youtube.com/watch?v=b0jNuoNYxKc'><img src={Youtube} alt='youtube' className='icon' /></a>
-          <a href='https://x.com/?lang=en'><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/91/ef/67/91ef67ae-4877-1286-a4d6-fb04f6f37e9e/ProductionAppIcon-2x-4-0-0-85-220.png/1200x630bb.png" alt='Twitter'className='icon' /></a>
+        <div className='contact-info-div'>
+          <p className='title-text'>Address :-</p>
+          <img src={Location} className='icons' />
+          <p className="address-text">3rd Floor Finolex Chowk, Old Mumbai - Pune Hwy, Pimpri , Pune, Maharashtra 411018
+          </p >
+          <div>
           </div>
-        
-      
+        </div>
+
+        <div className='contact-info-div'>
+          <p className='title-text'>Contact Info :-</p>
+          <img src={Contact} alt='1' className='icons' /><span className='contact-info-text'>+9284528878</span><br></br>
+          <img src={Email} alt='1' className='icons' /><span className='contact-info-text'>timelymovie@gmail.com</span><br></br>
+          <img src={Location} alt='1' className='icons' /><span className='contact-info-text'>Mumbai-Pune Hwy, Pimpri Pune </span>
+        </div>
+
+        <div className='contact-info-div'>
+          <p className='title-text'>Open / Close Timeing :-</p>
+          <img src={Clock} className='icons' /><p className='opening-hourse'>Monday sunday<br></br>
+            09:00 AM To 11:00PM
+          </p>
+
+
+
+
+        </div>
+
+
+      </div>
+
+
+      <div className='icon-container'>
+        <Link to='https://www.linkedin.com/feed/'> <img src={Linkdine} alt='linkdine' className='icon' /></Link>
+        <Link to='https://www.instagram.com/'> <img src={Instagram} alt='instgram' className='icon' /></Link>
+        <Link to='https://www.youtube.com/watch?v=b0jNuoNYxKc'><img src={Youtube} alt='youtube' className='icon' /></Link>
+        <Link to='https://x.com/?lang=en'><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/91/ef/67/91ef67ae-4877-1286-a4d6-fb04f6f37e9e/ProductionAppIcon-2x-4-0-0-85-220.png/1200x630bb.png" alt='Twitter' className='icon' /></Link>
+      </div>
+
+
     </>
   )
 }
