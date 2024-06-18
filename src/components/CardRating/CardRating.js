@@ -7,7 +7,7 @@ function CardRating({ rating, totalstars = 5 }) {
         {[...Array(totalstars)].map((star, index) => (
         //   <i key={index} className={index < rating ? "fas fa-star" : "fa-regular fa-star"}></i>,
 
-          <i key={index}  className={index < rating ? "fa-solid fa-star":"fa-regular fa-star"} style={{color: index < rating ? " #00b300": "#000"}}></i>
+          <i key={index}  className={index < rating ? "fa-solid fa-star":"fa-regular fa-star"} style={{color: index < rating ? "#ffbb33": "#000"}}></i>
 
         ))}
       </div>
