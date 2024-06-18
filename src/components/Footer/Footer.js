@@ -32,7 +32,7 @@ function Footer() {
       </div>
       <div className='contact-info-div'>
         <p className='title-text'>Contact Info :-</p>
-        <img src={Contact} alt='1' className='icons' /><span className='contact-info-text'>+9922868597</span><br></br>
+        <img src={Contact} alt='1' className='icons' /><span className='contact-info-text'>+9284528878</span><br></br>
         <img src={Email} alt='1' className='icons' /><span  className='contact-info-text'>timelymovie@gmail.com</span><br></br>
         <img src={Location} alt='1'  className='icons' /><span className='contact-info-text'>Mumbai-Pune Hwy, Pimpri Pune 411018</span>
       </div>
@@ -53,10 +53,10 @@ function Footer() {
     
    
         <div className='icon-container'> 
-           <img src={Linkdine} alt='linkdine'className='icon' />
-          <img src={Instagram} alt='instgram'className='icon'  />
-          <img src={Youtube} alt='youtube' className='icon' />
-          <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/91/ef/67/91ef67ae-4877-1286-a4d6-fb04f6f37e9e/ProductionAppIcon-2x-4-0-0-85-220.png/1200x630bb.png" alt='Twitter'className='icon' />
+          <a href='https://www.linkedin.com/feed/'> <img src={Linkdine} alt='linkdine'className='icon' /></a>
+          <a href='https://www.instagram.com/'> <img src={Instagram} alt='instgram'className='icon'  /></a>
+          <a href='https://www.youtube.com/watch?v=b0jNuoNYxKc'><img src={Youtube} alt='youtube' className='icon' /></a>
+          <a href='https://x.com/?lang=en'><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/91/ef/67/91ef67ae-4877-1286-a4d6-fb04f6f37e9e/ProductionAppIcon-2x-4-0-0-85-220.png/1200x630bb.png" alt='Twitter'className='icon' /></a>
           </div>
         
       
