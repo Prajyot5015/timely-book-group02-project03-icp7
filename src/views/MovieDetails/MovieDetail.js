@@ -46,7 +46,7 @@ function MovieDetails() {
             <p className='genre'>{genre} </p>
 
             <p className='langauage'>{langauage} </p>
-            <Link className='btn' >Buy</Link>
+            <Link className='btn' >Ticket</Link>
         </>
     )
 }
