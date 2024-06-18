@@ -14,7 +14,7 @@ function AboutCardPage() {
   
   
         <div className="acp-card-container">
-          <img src={selectId.image} className="acp-card-image" />
+          <img src={selectId.image} className="acp-card-image" alt="image"/>
           <span className="acp-title">{selectId.title}</span>
         </div>
   
