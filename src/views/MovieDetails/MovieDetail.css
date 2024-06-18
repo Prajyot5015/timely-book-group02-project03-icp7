@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.title-movie{
+    text-align: center;
+    padding: 20px;
+}
 .movie-card {
     border-radius: 10px;
     overflow:hidden;
@@ -11,14 +15,9 @@
     margin: 30px;
     width:70%;
    }
-.poster-img {
-   width: 900px;
-    height: 400px;
-    margin:4%;
-    margin-left: 100px;
-    margin-right: 10px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    text-align:center;
+.poster {
+   display: block;
+   margin: 20px auto;
 }
 .rating {
     background-color: #000;
@@ -29,19 +28,32 @@
     justify-content: center;
     padding: 15px;
 }
+.rating p{
+    font-size: 30px;
+}
 .rating img{
-    width: 20px;
+    width: 30px;
     padding-right: 5px;
 }
-.movie-title{
-    font-size: 20px;
-    padding: 10px;
-}
 .description{
-    font-size: 20px;
+    font-size: 30px;
     color: #454545;
     padding: 30px;
     margin: 25px;
+}
+.duration{
+    background-color: tomato;
+    color: #FFFFFF;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+.genre{
+    font-size: 20px;
+    text-align: center;
 }
 .langauage{
     text-align: center;

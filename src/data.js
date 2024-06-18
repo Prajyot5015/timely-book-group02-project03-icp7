@@ -11,8 +11,8 @@ import BlackWidowImg from './imgs/Black-Widow.jpeg'
 
 const moviesData=[
           {
-            id: 1,
-            title: "Sangharshyoddha Manoj Jarange Patil",
+            id:  "sangharshyoddha",
+            title: "Sangharshyoddha",
             description: "The film is based on the life story of Maratha activist Manoj Jarange Patil. Sangharsh Yoddha Manoj Jarange Patil is an Indian Marathi-language biographical film centered on the life of Manoj Jarange Patil, a prominent activist for Maratha quota rights. Directed by Shivaji Doltade and produced by Govardhan Doltade under Sonai Films Creation, the film features Rohan Patil in the titular role.",
             duration: "2h 29m",
             genre: ["Biography" , "Drama"],
@@ -36,7 +36,7 @@ const moviesData=[
            },
 
           {
-            id: 2,
+            id: "naach-ga-huma",
             title: "Naach Ga Ghuma",
             description: "Naach Ga Ghuma follows the lively duo - the woman of the house and the house help, and how their love-hate relationship unfolds in a humorous drama. is everyday life story of ordinary people turned into an extraordinary art! The premise is simple but the dialogues, direction, acting, comedy, drama & production quality is top notch. Story has heart, it will make you laugh, it will make you cry, it will make you think.",
             duration: "2h 19m",
@@ -60,7 +60,7 @@ const moviesData=[
            
           },
           {
-            id:3,
+            id: "kgf2",
             title: "K.G.F 2",
             description: "The blood-soaked land of Kolar Gold Fields (KGF) has a new overlord now - Rocky, whose name strikes fear in the heart of his foes. His allies look up to Rocky as their saviour, the government sees him as a threat to law and order; enemies are clamouring for revenge and conspiring for his downfall. Bloodier battles and darker days await as Rocky continues on his quest for unchallenged supremacy.n Short. Kolar is a city in Karnataka, famous for gold mines. The story of KGF, set in Kolar Gold Fields, was however, fictional. Kolar Gold Fields was shut down in 2001.",
             duration: 142,
@@ -81,7 +81,7 @@ const moviesData=[
          
           } ,
           {
-            id: 4,
+            id: "avatar",
             title: "Avatar: The Way of Water",
             description: "Jake Sully lives with his newfound family formed on the planet of Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.Sam Worthington · Jake ; Zoe Saldana · Neytiri ; Sigourney Weaver · Kiri ;It is the first installment in the Avatar film series. It is set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas.A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
             duration: "3h 10m",
@@ -103,7 +103,7 @@ const moviesData=[
         
           },
           {
-            id: 5,
+            id: "top-gun",
             title: "Top Gun: Maverick",
             description: "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.",
             duration: "2h 11m",
@@ -125,7 +125,7 @@ const moviesData=[
           
           },
           {
-            id: 6,
+            id: "spider-man",
             title: "Spider-Man: No Way Home",
             description: "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.Spider-Man: No Way Home is a 2021 American superhero film based on the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel .",
             duration: "2h 28m",
@@ -147,7 +147,7 @@ const moviesData=[
            
           },
           {
-            id: 7,
+            id: "dune",
             title: "Dune",
             description: "Paul Atreides leads nomadic tribes in a battle to control the desert planet Arrakis.Dune (titled onscreen as Dune: Part One) is a 2021 American epic science fiction film directed and co-produced by Denis Villeneuve, who co-wrote the screenplay with Jon Spaihts, and Eric Roth. It is the first of a two-part adaptation of the 1965 novel of the same name by Frank Herbert.",
             duration: "2h 35m",
@@ -169,7 +169,7 @@ const moviesData=[
         
           },
           {
-            id: 8,
+            id: "no-time-to-die",
             title: "No Time to Die",
             description: "James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.After being delayed by Boyle's departure and later by the COVID-19 pandemic, No Time to Die premiered at the Royal Albert Hall in London on 28 September 2021. It was theatrically released on 30 September 2021 in the United Kingdom and on 8 October 2021 in the United States.",
             duration: "2h 43m",
@@ -191,7 +191,7 @@ const moviesData=[
           
           },
           {
-            id: 9,
+            id: "black-window",
             title: "Black Widow",
             description: "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
             duration: "2h 13m",
