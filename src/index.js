@@ -12,6 +12,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createBrowserRouter([
@@ -42,7 +43,8 @@ const router = createBrowserRouter([
     {
         path: "/aboutfoodcardpage/:id",
         element: <FoodCardPage />
-    }
+    },
+ 
 ])
 
 

@@ -1,7 +1,9 @@
 import "./FoodCard.css"
 import "../../FoodData"
 import CardRating from "../CardRating/CardRating";
-// import { Link } from "react-router-dom";
+ import { Link } from "react-router-dom";
+ 
+
 
 function FoodCard({ name, image,  description, rating, totalstars = 5 }) {
     return (
@@ -14,7 +16,7 @@ function FoodCard({ name, image,  description, rating, totalstars = 5 }) {
                     <CardRating rating={rating} totalstars={totalstars} />
                 </span>
             </div>
-            <button type="buttom" className="food-card-btn" >Buy Now</button>
+            <Link type="buttom" className="food-card-btn" to={"/OrderNow"}>Order Now</Link>
             <button type="buttom" className="food-card-btn" >View Details</button>
         </div>
     );
