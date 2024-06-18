@@ -1,5 +1,6 @@
 import "./login.css"
 import Navbar from './../../components/Navbar/Navbar';
+import Footer from './../../components/Footer/Footer'
 import { Link } from 'react-router-dom';
 function LoginForm() {
     return (
@@ -15,6 +16,7 @@ function LoginForm() {
                 <p class="actext">Create An Accout?<Link to={"/signup"}className="span">SignUp</Link></p>
             </div>
         </form>
+        <Footer />
         </>
     )
 }
