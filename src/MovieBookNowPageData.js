@@ -1,4 +1,4 @@
-const bookNowPageData = [
+const MovieBookNowPageData = [
     {
         id:"1",
         title:"Abhiruchi City Pride: Sinhagad Road",
@@ -19,4 +19,4 @@ const bookNowPageData = [
     }
 ]
 
-export default bookNowPageData
+export default MovieBookNowPageData

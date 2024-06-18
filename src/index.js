@@ -9,6 +9,7 @@ import Food from './views/Food/Food';
 import AboutCardPage from './views/AboutCardPage/AboutCardPage';
 import FoodCardPage from './views/FoodCardPage/FoodCardPage';
 import OrderNow from './components/OrderNow/OrderNow';
+import MovieBookNow from './components/MovieBookNow/MovieBookNow';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
     {
         path: '/OrderNow',
         element: <OrderNow/>
+    },
+    {
+        path: 'MovieBookNow',
+        element: <MovieBookNow/>
     }
  
 ])
