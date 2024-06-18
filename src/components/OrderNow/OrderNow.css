@@ -10,7 +10,7 @@
   
   .order-now-container {
     max-width: 500px;
-    color: #045d2f;
+    color: #034623;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #011404;
@@ -42,7 +42,7 @@
   button {
     padding: 10px 20px;
     margin-bottom: 5px;
-    background-color: #7eafe3;
+    background-color: #1064bd;
     color: rgb(219, 225, 218);
     border: none;
     border-radius: 6px;
@@ -50,7 +50,7 @@
   }
   
   button:hover {
-    background-color: #315071;
+    background-color: #89bdf5;
   }
   
   .order-confirmation {

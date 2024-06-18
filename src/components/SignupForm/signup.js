@@ -1,11 +1,13 @@
 import "./signup.css"
 import Navbar from './../../components/Navbar/Navbar';
+import Footer from './../../components/Footer/Footer'
 import { Link } from "react-router-dom"
 
 
 
 function SignupForm() {
     return (
+        <>
         <form>
             <Navbar />
             <div className="content">
@@ -25,6 +27,8 @@ function SignupForm() {
                 </p>
             </div>
         </form>
+     <Footer />
+     </>
     )
 }
 export default SignupForm
