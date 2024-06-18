@@ -9,7 +9,6 @@ import OrderNow from './components/OrderNow/OrderNow';
 import Food from './views/Food/Food';
 import AboutCardPage from './views/AboutCardPage/AboutCardPage';
 import FoodCardPage from './views/FoodCardPage/FoodCardPage';
-import OrderNow from './components/OrderNow/OrderNow';
 import MovieBookNow from './components/MovieBookNow/MovieBookNow';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import MovieDetails from  './views/MovieDetails/MovieDetail';
@@ -53,11 +52,6 @@ const router = createBrowserRouter([
 
         path: "/OrderNow/:id",
         element: <OrderNow />
-    }
-
-
-        path: '/OrderNow',
-        element: <OrderNow/>
     },
 
     {
