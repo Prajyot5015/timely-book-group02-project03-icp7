@@ -9,7 +9,7 @@ function AboutUsCard({ id, image, title }) {
      <Link to={`/aboutcardpage/${id}`}>
 
       <div className="card-container">
-        <img src={image} className="card-image" />
+        <img src={image} className="card-image" alt="image"/>
         <span className="title">{title}</span>
       </div>
       </Link>

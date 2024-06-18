@@ -2,9 +2,9 @@
 
 
 .footer-container{
-    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
     color: white;
-    height: 230px;
+    height: 200px;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -31,16 +31,22 @@
     .icon-container{
       height: 80px;
       text-align: start;
-    background-image: linear-gradient(to top, #a3bded 100%, #6991c7 100%);
+      background-image: linear-gradient(to top, #48c6ef 100%, #6f86d6 100%);
     
     }
 
     .icon{
         height: 40px;
-        margin: 0px 20px;
+        margin: 0px 5px;
         border-radius: 10px;
         cursor: pointer;
+       
 
+    }
+    .icon:hover{
+        box-shadow: 0px 0px 15px 1px white;
+        transition: 0.3s;
+        height: 41px;
     }
     .title-text{
         font-size: 20px;

@@ -3,7 +3,9 @@
     border: 1px solid #ddd;
     border-radius: 15px;
     overflow: hidden;
-    width: 300px;
+    width: 250px;
+    height: 380px;
+    border: none;
     transition: transform 0.2s ease-in-out;
     margin: 10px;
     margin-bottom: 20px;
@@ -37,9 +39,10 @@
     color: white;
     border: none;   
     border-radius: 10px;
-    padding: 10px 20px;
-    margin-right: 30px;
-    font-size: 16px;
+    padding: 10px 17px;  
+    font-size: 12px;
+    margin-right:30px ;
+    margin: 15px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -49,10 +52,11 @@
 .food-description{
     font-size: 15px;
     text-align: center;
+    margin: 5px;    
 }
 
 .food-rating{
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
-    padding: 1px;
+    margin-top:4px ;
 }

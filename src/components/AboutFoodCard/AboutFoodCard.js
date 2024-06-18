@@ -6,7 +6,7 @@ function AboutFoodCard({id,title,image}) {
     <>
     <Link to={`/aboutfoodcardpage/${id}`}>
       <div className="card-container">
-        <img src={image} className="card-image"/>
+        <img src={image} className="card-image" alt="image"/>
         <span className="title">{title}</span>
     </div>
     </Link>
