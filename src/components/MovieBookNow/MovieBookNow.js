@@ -1,6 +1,6 @@
 import React from "react";
 import "./movieBookNow.css";
-import MovieBookNowPageData from "./../../MovieBookNowPageData"
+import MovieBookNowPageData from './MovieBookNowPageData'
 
 
 function  MovieBookNow({title,time1,time2,time3,time4}) {
