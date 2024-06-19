@@ -94,13 +94,13 @@
    
 
     .logo-image {
-        height: 150px;
-        width: 150px;
+        height: 160px;
+        width: 180px;
     }
 
     .icon-container {
         height: auto;
-       
+        
     }
 }
 
@@ -124,13 +124,12 @@
 
     .logo-image {
         height: 150px;
-        width: 150px;
+        width: 180px;
     }
 
     .icon-container {
         height: auto;
-       
-        background-color: tomato;
+        text-align: center;
     }
 
     .icon {
