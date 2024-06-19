@@ -11,13 +11,12 @@ function FoodList() {
             {foodItems.map((food, index) => (
                 <FoodCard
                     key={index}
+                    id={food.id}
                     name={food.name}
                     image={food.image}
                     description={food.description}
                     rating={food.rating}
-                   
-                    
-                    
+
                 />
             ))}
         </div>
